@@ -7,29 +7,32 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
-  font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 </style>
+
+<script src="toggle.js"> </script>
+
 <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
 <div id="header">
-	<img class="title-logo" src="images/NBA Fan Page logo.svg" width="150">
-	<h1 class="title-logo">NBA Fan Page</h1> 
+	<img class="logo" src="images/NBA Fan Page logo.svg" width="150px">
+	<h1 class="title">NBA Fan Page</h1> 
 </div>
 
-<h4>A website created by Allen, a Vancouver-based basketball fan.</h4>
+<h3>A website created by Allen, a Vancouver-based basketball fan.</h3>
 
 <div class="all-players">
 
 <div class="goat lebron">
-	<button class="lebron"> 
+	<button id="lebron-button" class="lebron" onclick="select('lebron');"> 
 		<h3> Lebron James </h3> 
-		<img src="images\Lebron James.jpg" width=250px> 
+		<img src="images\Lebron James.jpg"> 
 	</button>
-	<div id="lebron-stats">
+	<div id="lebron-stats" class="lebron invisible">
 		<ol>
 			<li> 27.1 ppg </li>
 			<li> 4x NBA Champ </li>
@@ -41,11 +44,11 @@ body {
 </div>
 
 <div class="goat michael">
-	<button class="michael">
+	<button id="michael-button" class="michael" onclick="select('michael');">
 		<h3> Michael Jordan </h3>
-		<img src="images\Michael Jordan.jpg" width=250px> 
+		<img src="images\Michael Jordan.jpg"> 
 	</button>
-	<div id="michael-stats">
+	<div id="michael-stats" class="michael invisible">
 		<ol>
 			<li> 30.1 ppg </li>
 			<li> 6x NBA Champ </li>
@@ -57,11 +60,11 @@ body {
 </div>
 
 <div class="goat wilt">
-	<button class="wilt">
+	<button id="wilt-button" class="wilt" onclick="select('wilt');">
 		<h3> Wilt Chamberlain </h3>
-		<img src="images\Wilt Chamberlain.jpg" width=250px> 
+		<img src="images\Wilt Chamberlain.jpg"> 
 	</button>
-	<div id="wilt-stats">
+	<div id="wilt-stats" class="wilt invisible">
 		<ol>
 			<li> 30.1 ppg </li>
 			<li> 2x NBA Champ </li>
