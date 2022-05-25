@@ -1,0 +1,39 @@
+body {
+	background-color: orange;
+	color: white;
+}
+
+li {
+	color: black;
+}
+
+.all-players {
+	display: flex;
+	border: 1px solid black;
+}
+
+.goat {
+	/* justify-content: space-between; */
+	flex: 1; 
+}
+
+#header {
+	display: flex;
+	border: 1px solid black;
+}
+
+.title-logo {
+	justify-content: center;
+	align-items: flex-end;
+}
+
+
+button.lebron:hover {
+    background-color: rgba(255, 255, 0, 0.5);
+}
+button.michael:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+button.wilt:hover {
+    background-color: rgba(128, 0, 128, 0.5);
+}
