@@ -7,7 +7,7 @@ li {
 	font-weight: bolder;
 }
 
-.all-players {
+#all-players {
 	display: flex;
 	/* border: 1px solid black; */ 
 }
@@ -34,6 +34,7 @@ li {
 button {
 	background-color: black;
 	color: white;
+	border: 3px solid white;
 }
 
 .invisible {
@@ -41,13 +42,17 @@ button {
 }
 
 .selected.lebron {
-    background-color: rgba(255, 255, 0, 0.5);
+    background-color: rgba(255, 255, 0, 0.804);
 }
 .selected.michael {
     background-color: #bc051c;
 }
 .selected.wilt {
     background-color: #6c3a53;
+}
+
+.selected.kareem {
+	background-color: #3e3493;
 }
 
 button:hover {

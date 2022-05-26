@@ -11,7 +11,7 @@ body {
 }
 </style>
 
-<script src="toggle.js"> </script>
+<script src="toggle.js" type="text/javascript"> </script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -25,7 +25,8 @@ body {
 
 <h3>A website created by Allen, a Vancouver-based basketball fan.</h3>
 
-<div class="all-players">
+<div id="all-players">
+	<script src="addPlayer.js" type="text/javascript"> </script>
 
 <div class="goat lebron">
 	<button id="lebron-button" class="lebron" onclick="select('lebron');"> 
@@ -54,7 +55,7 @@ body {
 			<li> 6x NBA Champ </li>
 			<li> 10x Scoring Champ </li>
 			<li> 14x All-NBA </li>
-			<li> Best career scoring average: 30.12 </li>
+			<li> Best career ppg: 30.12 </li>
 		</ol>
 	</div>
 </div>
@@ -75,6 +76,21 @@ body {
 	</div>
 </div>
 
+<!-- <div class="goat kareem">
+	<button id="kareem-button" class="kareem" onclick="select('kareem');">
+		<h3> Kareem Abdul-Jabbar </h3>
+		<img src="images\Kareem Abdul-Jabbar.jpg"> 
+	</button>
+	<div id="kareem-stats" class="kareem invisible">
+		<ol>
+			<li> 24.6 ppg </li>
+			<li> 6x NBA Champ </li>
+			<li> 2x Scoring Champ </li>
+			<li> 15x All-NBA </li>
+			<li> Most MVPs: 6 </li>
+		</ol>
+	</div>
+</div> -->
 
 </div>
 
