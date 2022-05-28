@@ -1,20 +1,21 @@
 body {
 	background-color: black;
 	color: white;
+	display: block;
 }
 
 li {
 	font-weight: bolder;
 }
 
-#all-players {
+#intro {
 	display: flex;
-	/* border: 1px solid black; */ 
+	justify-content: center;
 }
 
-.goat {
-	/* justify-content: space-between; */
-	flex: 1; 
+#all-players {
+	display: flex;
+	justify-content: space-around;
 }
 
 .goat img {
@@ -23,12 +24,8 @@ li {
 
 #header {
 	display: flex;
-	/* border: 1px solid black; */ 
-}
-
-.title {
 	justify-content: center;
-	align-items: flex-end;
+	align-items: center;
 }
 
 button {
@@ -37,12 +34,16 @@ button {
 	border: 3px solid white;
 }
 
+button:hover {
+	background-color: lightgray;
+}
+
 .invisible {
 	display: none;
 }
 
 .selected.lebron {
-    background-color: rgba(255, 255, 0, 0.804);
+    background-color: #d7b400;
 }
 .selected.michael {
     background-color: #bc051c;
@@ -50,11 +51,9 @@ button {
 .selected.wilt {
     background-color: #6c3a53;
 }
-
 .selected.kareem {
 	background-color: #3e3493;
 }
-
-button:hover {
-	background-color: lightgray;
+.selected.magic {
+	background-color: #e1cd00;
 }

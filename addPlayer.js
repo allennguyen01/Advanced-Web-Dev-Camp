@@ -1,5 +1,6 @@
 //addPlayer('lebron', 'Lebron James', 'images\\Lebron James.jpg', 27.1, 4, 5, 18, 'Most playoff points: 7631');
 addPlayer('kareem', 'Kareem Abdul-Jabbar', 'images\\Kareem Abdul-Jabbar.jpg', 24.6, 6, 2, 15, 'Most MVPs: 6');
+addPlayer('magic', 'Magic Johnson', 'images\\Magic Johnson.jfif', 19.5, 5, 0, 10, 'Most assists per game: 11.2');
 
 // Adds a player to index.html from the given player information
 function addPlayer(playerFirstName, playerFullName, imgPath, ppg, nbaChamp, scoringChamp, allNBA, funFact) {
