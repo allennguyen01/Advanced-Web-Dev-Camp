@@ -1,0 +1,124 @@
+body {
+	background-color: black;
+	color: white;
+	display: block;
+}
+
+li {
+	font-weight: bolder;
+}
+
+#intro {
+	display: flex;
+	justify-content: center;
+}
+
+#all-items {
+	display: flex;
+	justify-content: space-around;
+}
+
+.item img {
+	height: 200px;
+}
+
+#header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	background-color: black;
+	color: white;
+	border: 3px solid white;
+}
+
+button:hover {
+	background-color: lightgray;
+}
+
+.invisible {
+	display: none;
+}
+
+.info {
+	width: 400px;
+}
+
+.selected.kobe-jersey {
+    background-color: #d7b400;
+}
+.selected.jordan-1 {
+    background-color: #bc051c;
+}
+.selected.julius-ring {
+    background-color: #6c3a53;
+}
+
+/* The navigation bar */
+.navbar {
+	overflow: hidden;
+	background-color: darkorange;
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
+	display: flex;
+	justify-content: center;
+}
+
+/* Links inside the navbar */
+.navbar a {
+	/* float: center; */
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+	background: #ddd;
+	color: black;
+}
+
+/* Main content */
+.main {
+	margin-top: 50px; /* Add a top margin to avoid content overlay */
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
