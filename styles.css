@@ -5,7 +5,7 @@ body {
 }
 
 li {
-	font-weight: bolder;
+
 }
 
 #intro {
@@ -13,7 +13,12 @@ li {
 	justify-content: center;
 }
 
-#all-items {
+#items-row-1 {
+	display: flex;
+	justify-content: space-around;
+}
+
+#items-row-2 {
 	display: flex;
 	justify-content: space-around;
 }
@@ -46,14 +51,32 @@ button:hover {
 	width: 400px;
 }
 
+.selected {
+	color: black;
+}
+
 .selected.kobe-jersey {
     background-color: #d7b400;
 }
+
 .selected.jordan-1 {
-    background-color: #bc051c;
+    background-color: #A40A1E;
 }
+
 .selected.julius-ring {
-    background-color: #6c3a53;
+    background-color: #673D6B;
+}
+
+.selected.curry-card {
+    background-color: #3B4C76;
+}
+
+.selected.naismith-rules {
+	background-color: #D3CDB5;
+}
+
+.selected.finals-1998-court {
+	background-color: #0C68AF;
 }
 
 /* The navigation bar */
@@ -86,5 +109,5 @@ button:hover {
 
 /* Main content */
 .main {
-	margin-top: 150px; /* Add a top margin to avoid content overlay */
+	margin-top: 50px; /* Add a top margin to avoid content overlay */
 }
